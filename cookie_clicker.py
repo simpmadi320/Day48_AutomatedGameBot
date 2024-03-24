@@ -36,7 +36,6 @@ while True:
         except StaleElementReferenceException:
             continue
 
-
         for upgrade_key in upgrades:
             upgrade = upgrades[upgrade_key]
             try:
